@@ -1,17 +1,13 @@
-# PerfectPixel website
+# 像素精修
 
-Open https://yimuhe.github.io/perfectPixel-site/
+在线工具：https://yimuhe.github.io/perfectPixel-site/
 
-## Alpha edge fix v1
+网页界面为简体中文，支持自动识别像素网格、透明边缘修复、主色采样、
+保留半透明光效以及调整预览和导出倍率。图片仅在浏览器本地处理。
 
-Hard edges (default) decides foreground coverage separately from colour selection
-and emits alpha 0 or 255. Adjust coverage to keep thin edges or tighten contours.
-Preserve translucency retains genuine coverage alpha for glass, smoke, and effects.
-Original runs the legacy sampler for comparison. Regenerate after changing options.
-No erosion or small-component deletion is performed. Images stay in the browser.
+本仓库只存放公开网页的构建文件。项目源代码、测试和说明保存在私有仓库。
 
-This repository contains generated browser files only. The maintained project,
-website sources, regression tests, and documentation are in a private repository.
-
-Based on https://github.com/theamusing/perfectPixel_webdemo
-and https://github.com/theamusing/perfectPixel by theamusing.
+原项目与作者：
+- https://github.com/theamusing/perfectPixel
+- https://github.com/theamusing/perfectPixel_webdemo
+- 作者：theamusing

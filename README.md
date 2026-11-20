@@ -11,3 +11,8 @@
 - https://github.com/theamusing/perfectPixel
 - https://github.com/theamusing/perfectPixel_webdemo
 - 作者：theamusing
+
+## 人物比例修复
+
+透明边缘处理使用固定网格基准进行局部微调，避免累积偏移造成压窄、
+拉长或边缘裁切。硬边像素和保留半透明光效均保留完整画布。
